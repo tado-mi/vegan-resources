@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { sections } from './constants.js'
+
+import { Page } from './pages/Page'
+
+import './sass/App.scss'
+
+export class App extends Component {
+  render () {
+    const menu = sections.map(({ path, title }) => {
+      return (
+        <li key={path}>
+          <a href={`#/${path}`}>{title.en}</a>
+        </li>
+      )
+    })
+
+    const routes = sections.map(item => {
+      return (
+        <Route
+          exact path={`/${item.path}`} key={`/${item.path}`}
+          component={() => <Page {...item} />}
+        />
+      )
+    })
+
+    return (
+      <div>
+        <div className='menu'>
+          <ul>
+            {menu}
+          </ul>
+        </div>
+        <Router>
+          <Switch>
+            {routes}
+          </Switch>
+        </Router>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App

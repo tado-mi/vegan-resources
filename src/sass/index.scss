@@ -1,0 +1,35 @@
+// highlight color
+$color0: rgb(40, 165, 40);
+// background
+$color1: rgb(255, 255, 255);
+// hover highlight color
+$color2: rgb(225, 250, 225);
+
+body {
+
+    font-family: 'Ubuntu';
+    background-color: $color1;
+
+    a {
+
+        color: $color0;
+
+        &:link {
+          text-decoration: none;
+        }
+
+        &:visited {
+          text-decoration: none;
+        }
+
+        &:hover {
+          text-decoration: none;
+        }
+
+        &:active {
+          text-decoration: none;
+        }
+
+      }
+
+}

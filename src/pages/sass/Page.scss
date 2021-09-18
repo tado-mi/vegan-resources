@@ -1,0 +1,56 @@
+@import '../../sass/index.scss';
+
+.page {
+
+    h1 {
+
+        padding: 20px;
+        color: $color0;
+
+    }
+
+    a {
+
+        &:link {
+
+            text-decoration: underline;
+
+        }
+
+    }
+
+    .section {
+
+        
+        padding: 10px;
+
+        .section-name {
+            
+            padding: 5px;
+            border: 2px solid $color0;
+            border-radius: 5px;
+            background-color: $color2;
+
+            display: block;
+            width: fit-content;
+            margin-bottom: 5px;
+            
+        }
+
+        .section-listing {
+
+            margin: 10px;
+
+        }
+
+        .important a {
+
+            color: red;
+            text-decoration: underline;
+            font-weight: bolder;
+
+        }
+
+    }
+
+}

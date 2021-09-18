@@ -1,0 +1,31 @@
+@import 'index.scss';
+
+.menu  {
+
+  padding: 2px;
+
+  ul {
+
+    li {
+
+      display: inline;
+      
+      margin: 5px;
+
+      padding: 10px;
+      border: 2px solid $color0;
+      border-radius: 5px;
+
+      font-size: large;
+
+      &:hover {
+
+        background-color: $color2;
+
+      }
+
+    }
+
+  }
+
+}
