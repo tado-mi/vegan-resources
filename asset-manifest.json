@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vegan-resources/static/css/main.ed4710ce.chunk.css",
+    "main.js": "/vegan-resources/static/js/main.c3d6ea0e.chunk.js",
+    "main.js.map": "/vegan-resources/static/js/main.c3d6ea0e.chunk.js.map",
+    "runtime-main.js": "/vegan-resources/static/js/runtime-main.84f437b3.js",
+    "runtime-main.js.map": "/vegan-resources/static/js/runtime-main.84f437b3.js.map",
+    "static/js/2.75608ef3.chunk.js": "/vegan-resources/static/js/2.75608ef3.chunk.js",
+    "static/js/2.75608ef3.chunk.js.map": "/vegan-resources/static/js/2.75608ef3.chunk.js.map",
+    "index.html": "/vegan-resources/index.html",
+    "static/css/main.ed4710ce.chunk.css.map": "/vegan-resources/static/css/main.ed4710ce.chunk.css.map",
+    "static/js/2.75608ef3.chunk.js.LICENSE.txt": "/vegan-resources/static/js/2.75608ef3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84f437b3.js",
+    "static/js/2.75608ef3.chunk.js",
+    "static/css/main.ed4710ce.chunk.css",
+    "static/js/main.c3d6ea0e.chunk.js"
+  ]
+}
